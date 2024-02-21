@@ -3,6 +3,8 @@ import torch
 import numpy as np
 from kornia.contrib import ImageStitcher
 import matplotlib.pyplot as plt
+from kornia.feature import LoFTR
+import kornia.feature as KF
 
 # Chemins d'accès des images que vous souhaitez charger
 image_paths = ["ENV4/IMG3.jpg", "ENV4/IMG4.jpg"]
